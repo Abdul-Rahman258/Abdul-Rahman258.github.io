@@ -5,4 +5,4 @@
 :HL["/fonts/pro-font-windows-400.woff2","font",{"crossOrigin":"anonymous","type":"font/woff2"}]
 :HL["/fonts/pro-font-windows-700.woff2","font",{"crossOrigin":"anonymous","type":"font/woff2"}]
 :HL["/assets/P5lYWOQS.css","style",{"crossOrigin":"anonymous"}]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}},"staleTime":300,"buildId":"oa8mCoCb3JQMtIVwlLYQf"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}},"staleTime":300,"buildId":"B-yWbsPDy5QjahaltlNiJ"}
