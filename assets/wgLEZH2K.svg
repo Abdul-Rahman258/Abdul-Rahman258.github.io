@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#042f2e"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="cross" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#14b8a6"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#bg)"/>
+  <!-- Medical Cross & Pulse -->
+  <g transform="translate(400, 180)">
+    <rect x="-20" y="-60" width="40" height="120" rx="8" fill="url(#cross)"/>
+    <rect x="-60" y="-20" width="120" height="40" rx="8" fill="url(#cross)"/>
+    <!-- ECG Line -->
+    <path d="M -150 0 L -50 0 L -30 -40 L -10 50 L 10 -30 L 30 20 L 50 0 L 150 0" fill="none" stroke="#2dd4bf" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  <text x="400" y="375" font-family="Arial,sans-serif" font-size="24" font-weight="900" fill="#2dd4bf" text-anchor="middle" letter-spacing="2">MEDCORE AI // HEALTHCARE DIAGNOSTICS</text>
+</svg>

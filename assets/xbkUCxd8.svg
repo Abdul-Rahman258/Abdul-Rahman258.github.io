@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#09090b"/>
+      <stop offset="100%" stop-color="#18181b"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#ef4444"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#bg)"/>
+  <circle cx="400" cy="200" r="140" fill="#f59e0b" opacity="0.06"/>
+  <g transform="translate(400, 190)">
+    <!-- Rocket Icon -->
+    <path d="M 0 -70 Q 40 -10 30 50 L -30 50 Q -40 -10 0 -70 Z" fill="url(#glow)"/>
+    <!-- Wings -->
+    <path d="M -30 20 L -65 60 L -30 50 Z" fill="#f59e0b"/>
+    <path d="M 30 20 L 65 60 L 30 50 Z" fill="#f59e0b"/>
+    <!-- Portal -->
+    <circle cx="0" cy="0" r="15" fill="#ffffff"/>
+  </g>
+  <text x="400" y="310" font-family="Arial,sans-serif" font-size="34" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="3">ASAAN LABS</text>
+  <text x="400" y="360" font-family="Arial,sans-serif" font-size="16" font-weight="bold" fill="#f59e0b" text-anchor="middle" letter-spacing="4">AI PRODUCTS &amp; MULTI-AGENT SYSTEMS</text>
+</svg>
